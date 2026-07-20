@@ -1,0 +1,24 @@
+# Generation / tooling scripts are never part of the public source tree.
+main.py
+generator.py
+builder.py
+gen_*.py
+scripts/
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+*.pem
+*.keypair.json
+id.json
+
+# Node
+node_modules/
+*.log
+*.tsbuildinfo
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/

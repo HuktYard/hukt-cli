@@ -1,0 +1,39 @@
+{
+  "name": "hukt-cli",
+  "version": "0.1.0",
+  "description": "Command-line tool for Solana Token-2022 transfer hooks: inspect, resolve, attest, hook add, build.",
+  "type": "commonjs",
+  "bin": {
+    "hukt-cli": "bin/hukt.js",
+    "hukt": "bin/hukt.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "solana",
+    "token-2022",
+    "transfer-hook",
+    "spl-token",
+    "cli"
+  ],
+  "author": "hukt-labs",
+  "license": "MIT",
+  "homepage": "https://github.com/HuktYard/hukt-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuktYard/hukt-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HuktYard/hukt-cli/issues"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.95.0"
+  }
+}
